@@ -1,4 +1,4 @@
-FROM hiteshsinghal/flask2
+FROM hiteshsinghal/flask
 ADD . /var/www/flaskapp
 WORKDIR /var/www/flaskapp
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
