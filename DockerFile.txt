@@ -1,4 +1,4 @@
-FROM hiteshsinghal/flask2
+FROM hiteshsinghal/apache2r
 ADD . /var/www/flaskapp
 WORKDIR /var/www/flaskapp
 
